@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:textColor="@color/pure_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="شماره کارت"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/Code"
+        android:textColor="@color/pure_white"
+        android:textColorHint="@color/pure_white"
+        android:textSize="30dp"
+        android:hint="0000 0000 0000 0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:textColor="@color/pure_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="تاریخ انقضا"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:textColor="@color/pure_white"
+        android:textColorHint="@color/pure_white"
+        android:textSize="30dp"
+        android:hint="0000/00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/Date"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:textColor="@color/pure_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/blue"
+        android:onClick="scan"
+        android:text="SCAN"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:textColor="@color/pure_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Powered By SibBank"/>
+
+
+</LinearLayout>
